@@ -5,7 +5,7 @@ for i in range(1):
     print(*numbers)
     is_prime=True
     for j in range(2,i):
-        if i/j==0:
+        if i%j==0:
             is_prime=False
             primes.append(i)
         else:
