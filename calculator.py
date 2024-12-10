@@ -12,7 +12,7 @@ try:
       print(int(a)*int(b))
     elif operator == "/":
       print(int(a)/int(b))
+    else:
+      print("Ошибка, проверьте введенные данные")
 except ZeroDivisionError:
     print("Произошло деление на ноль, в тру математике - это бесконечноcть")
-    else:
-        print("Ошибка, проверьте введенные данные")
