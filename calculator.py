@@ -7,12 +7,12 @@ try:
     if operator == "+":
     print(int(a)+int(b))
     elif operator == "-":
-    print(int(a)-int(b))
+    print((int(a)-int(b)))
     elif operator == "*":
     print(int(a)*int(b))
     elif operator == "/":
     print(int(a)/int(b))
 except ZeroDivisionError:
-    print("Произошло деление на ноль, в тру математике - это бесконечноть")
-else:
+    print("Произошло деление на ноль, в тру математике - это бесконечноcть")
+    else:
 print("Ошибка, проверьте введенные данные")
