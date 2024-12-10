@@ -5,14 +5,14 @@ b=int(input("Введите второе число"))
 operator=input("Какую математическу операцию будем производить? +,-,* или /?")
 try:
     if operator == "+":
-    print(int(a)+int(b))
+      print(int(a)+int(b))
     elif operator == "-":
-    print((int(a)-int(b)))
+      print((int(a)-int(b)))
     elif operator == "*":
-    print(int(a)*int(b))
+      print(int(a)*int(b))
     elif operator == "/":
-    print(int(a)/int(b))
+      print(int(a)/int(b))
 except ZeroDivisionError:
     print("Произошло деление на ноль, в тру математике - это бесконечноcть")
     else:
-print("Ошибка, проверьте введенные данные")
+        print("Ошибка, проверьте введенные данные")
