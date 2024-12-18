@@ -34,9 +34,9 @@ def test_login_redirect():
 
 def test_context_after_login_is_correct():
     correct_text="Products"
-    current_text=driver.find_element(By.XPATH, '//*[@id="header_container"]/div[2]/span)')
+    current_text=driver.find_element(By.XPATH, '//*[@id="header_container"]/div[2]/span')
     assert correct_text==current_text.text, "test_context_after_login_is_correct is Failed"
-    file.write("test_login_redirect is success \n")
+    file.write("test_context_after_login_is_correct is success \n")
 set_up()
 login()
 
