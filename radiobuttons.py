@@ -21,4 +21,12 @@ sleep(2)
 radio_impressive=driver.find_element(By.XPATH, '//*[@id="app"]/div/div/div/div[2]/div[2]/div[3]/label')
 radio_impressive.click()
 
+def test_radiobutton_is_correct():
+    radio_impressive.is_selected()
+    if True:
+        file.write("test_radiobutton_is_correct is success \n")
+    else:
+        file.write("test_radiobutton_is_correct is failed \n")
+
+test_radiobutton_is_correct()
 file.close()
